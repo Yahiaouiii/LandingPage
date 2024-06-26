@@ -189,6 +189,18 @@ p {
     background-color: #DEFFEE;
 }
 
+.videosec{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 80px;
+}
+
+.text4{
+    
+    width: 40%;
+}
+
 
 
 
