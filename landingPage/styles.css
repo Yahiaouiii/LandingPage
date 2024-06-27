@@ -63,7 +63,7 @@ p {
     font-size: 18px;
 }
 
-.text button {
+ button {
     background-color: #2639ED;
     border: none;
     width: 200px;
@@ -206,6 +206,7 @@ display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
+margin: 120px;
 }
 
 .swiper{
@@ -255,6 +256,40 @@ input#fb3:checked ~ .fbs {
 input#fb4:checked ~ .fbs {
     transform: translateX(-2700px);
 
+}
+
+.newsletter{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 300px;
+    background-color: #F4F9FF;
+    margin: 80px;
+    border-radius: 75px;
+}
+
+input {
+    height: 100px;
+    width: 480px;
+    border: none;
+    border-radius: 60px;
+    padding-left: 20px;
+    font-size: medium;
+  
+}
+
+.emailbox{
+   height: 60%;
+   display: flex;
+   align-items: center;
+  
+   
+}
+
+.newsletter button {
+    position: absolute;
+    right: 200px;
+    cursor: pointer;
 }
 
 
