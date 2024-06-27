@@ -55,10 +55,10 @@ nav a:hover{
 
 h1 {
     font-size: 40px;
-    margin: 16px 0px;
+    margin: 8px 0px;
 }
 p {
-    margin: 16px 0px;
+    margin: 8px 0px;
     color: #6b6b6b;
     font-size: 18px;
 }
@@ -200,6 +200,64 @@ p {
     
     width: 40%;
 }
+
+.feedback{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+.swiper{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 900px;
+    overflow: hidden;
+    margin: 16px;
+}
+
+.fbs{
+    display: flex;
+    transition: transform 0.5s ease;
+
+}
+
+.swiper img {
+    height: 300;
+    width: 300;
+    border-radius: 50%;
+    padding: 10px;
+    
+}
+
+.navigation label:hover{
+    cursor: pointer;
+}
+
+.fb1 , .fb2 , .fb3 , .fb4 {
+    display: flex;
+    width: 900px;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+input#fb2:checked ~ .fbs {
+    transform: translateX(-900px);
+}
+
+input#fb3:checked ~ .fbs {
+    transform: translateX(-1800px);
+}
+
+input#fb4:checked ~ .fbs {
+    transform: translateX(-2700px);
+
+}
+
+
 
 
 
