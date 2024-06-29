@@ -66,6 +66,10 @@ p {
     font-size: 18px;
 }
 
+h3{
+    margin: 0;
+}
+
  button {
     background-color: #2639ED;
     border: none;
@@ -297,17 +301,26 @@ input {
 
 footer {
     display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    margin: 80px;
+    justify-content: space-around;
+    
+    margin: 0px 80px ;
 }
 footer div {
-    width: 10%;
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    padding: 20px;
 }
 
 footer .fst {
+
     width: 25%;
+
 }
+
+
+
+
 
 
 
